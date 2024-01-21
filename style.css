@@ -1,0 +1,15 @@
+html, body {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h4.card-title {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}

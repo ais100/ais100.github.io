@@ -1,0 +1,51 @@
+[
+  {
+    "title": "SIPERAB",
+    "image": "image/siperab.webp",
+    "link": "",
+    "description": "SIPERAB (Sistem Informasi Penyusunan RAB) is a system made for the Office of Highways of Tangerang Regency in the Banten Province of Indonesia.",
+    "technologies": ["Laravel", "HTML 5", "CSS 3", "Javascript, jQuery"]
+  },
+  {
+    "title": "Darlinshop SG",
+    "image": "image/darlinshop.webp",
+    "link": "https://darlinshop.sg",
+    "description": "Darlinshop.sg is an ecommerce website created for a client selling imported goods from around the world in Singapore.",
+    "technologies": ["Wordpress", "Woocommerce", "Elementor", "Javascript, jQuery"]
+  },
+  {
+    "title": "Ummah Maternal",
+    "image": "image/ummahmaternal.webp",
+    "link": "https://www.ummahmaternal.com",
+    "description": "Ummah Maternal is a community created for doulas and healthcare practitioners targeting their services for pregnant women and mothers in Canada.",
+    "technologies": ["Wordpress", "Elementor", "Stripe Payment", "Javascript, jQuery"]
+  },
+  {
+    "title": "Mirium Digital",
+    "image": "image/mirium.webp",
+    "link": "https://www.miriumdigital.com",
+    "description": "Mirium Digital provides solutions to various fields of business. Their service includes software and web development, consultation, and cloud services.",
+    "technologies": ["Wordpress", "Elementor", "HTML 5, CSS 3", "Javascript, jQuery"]
+  },
+  {
+    "title": "AturToko.id",
+    "image": "image/aturtoko.webp",
+    "link": "https://www.aturtoko.id",
+    "description": "AturToko is a website for a startup providing omnichannel services to marketplace sellers. Their products include OmniPos, BuatToko, and AturToko +.",
+    "technologies": ["Wordpress", "HTML 5, CSS 3", "Midtrans Payment", "Javascript, jQuery"]
+  },
+  {
+    "title": "eMAHA",
+    "image": "image/emaha.webp",
+    "link": "https://www.emaha.com",
+    "description": "eMAHA is a marketplace created for Mardicorp from Malaysia. It focuses on products and services provided by Malaysia's SMEs.",
+    "technologies": ["Wordpress &amp; Woocommerce", "HTML 5, CSS 3", "Senangpay Payment", "Javascript, jQuery"]
+  },
+  {
+    "title": "OmniPos",
+    "image": "image/omnipos.webp",
+    "link": "https://store.aturtoko.id",
+    "description": "OmniPos is an omnichannel system created for AturToko as the core system used to connect marketplaces into a single dashboard.",
+    "technologies": ["Angular 12", "HTML 5", "CSS 3", "Typescript"]
+  }
+]
