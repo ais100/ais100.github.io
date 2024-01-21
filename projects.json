@@ -28,6 +28,13 @@
     "technologies": ["Wordpress", "Elementor", "HTML 5, CSS 3", "Javascript, jQuery"]
   },
   {
+    "title": "Auto Coin Trade",
+    "image": "image/autocointrade.webp",
+    "link": "",
+    "description": "Auto Coin Trade provides the service of automatic transactions of Futures cryptocurrency. Real time transactions are done by reading price updates using websocket.",
+    "technologies": ["Node.js", "Websocket", "Angular 15", "HTML 5, CSS 3"]
+  },
+  {
     "title": "AturToko.id",
     "image": "image/aturtoko.webp",
     "link": "https://www.aturtoko.id",
