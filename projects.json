@@ -60,7 +60,7 @@
     "image": "image/ayosrc.webp",
     "link": "",
     "description": "AYO by SRC is a digital system connecting wholesale partners to SRC stores. Task Sequencing Management is a part of the system where the gamification of tasks live.",
-    "technologies": ["Angular 12", "HTML 5", "CSS 3", "Typescript"]
+    "technologies": ["Angular 12", "HTML 5, CSS 3", "D3.js", "Typescript"]
   },
   {
     "title": "Delikatessa",
