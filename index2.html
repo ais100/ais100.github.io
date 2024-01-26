@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container" id="projects">
+    <!-- <div class="card">
+      <div class="card-img"><img src="image/aimiasi.webp" alt="AIMI ASI"></div>
+      <div class="card-content">
+        <div class="card-title">AIMI ASI</div>
+        <p>AIMI ASI (Asosiasi Ibu Menyusui Indonesia) is an non-profit organization created to promote and support breastfeeding mothers in Indonesia.</p>
+      </div>
+      <div class="card-footer">
+        <p>Tech stack:</p>
+        <ul>
+          <li>Wordpress</li>
+          <li>Elementor</li>
+          <li>HTML 5, CSS 3</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+    </div> -->
+  </div>
+  <script>
+    fetch('projects.json')
+      .then(response => response.json())
+      .then(data => {
+        const projects = document.getElementById('projects');
+
+        data.forEach(project => {
+          const card = composeCard(project);
+          projects.appendChild(card);
+        });
+
+      })
+      .catch(error => console.error('Error getting projects', error));
+
+    function composeCard(project) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="card-img"><img src="${project.image}" alt="${project.title}"></div>
+        <div class="card-content">
+          <div class="card-title">${project.title}</div>
+          <p>${project.description}</p>
+        </div>
+        <div class="card-footer">
+          <p>Tech stack:</p>
+          <ul>
+            ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
+          </ul>
+        </div>
+      `
+      return card;
+    }
+  </script>
+</body>
+</html>

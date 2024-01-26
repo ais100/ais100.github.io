@@ -54,5 +54,33 @@
     "link": "https://store.aturtoko.id",
     "description": "OmniPos is an omnichannel system created for AturToko as the core system used to connect marketplaces into a single dashboard.",
     "technologies": ["Angular 12", "HTML 5", "CSS 3", "Typescript"]
+  },
+  {
+    "title": "AYO SRC",
+    "image": "image/ayosrc.webp",
+    "link": "",
+    "description": "AYO by SRC is a digital system connecting wholesale partners to SRC stores. Task Sequencing Management is a part of the system where the gamification of tasks live.",
+    "technologies": ["Angular 12", "HTML 5", "CSS 3", "Typescript"]
+  },
+  {
+    "title": "Delikatessa",
+    "image": "image/delikatessa.webp",
+    "link": "",
+    "description": "Delikatessa is a meat processing factory which uses a WMS for their cold storage. Ensuring quick and easy access to specific items is mandatory in subzero environment.",
+    "technologies": ["Angular 4", "Ionic 3", "HTML 5, CSS 3", "Typescript"]
+  },
+  {
+    "title": "Pajak Mobile Pemprov DKI",
+    "image": "image/pajakmobile.webp",
+    "link": "",
+    "description": "Pajak Mobile is an app for tax payers to see any tax they are required to pay. From properties, vehicles, parking to restaurants and billboard displays.",
+    "technologies": ["Ionic 3", "Cordova", "Javascript", "Material Design"]
+  },
+  {
+    "title": "Mentimun",
+    "image": "image/mentimun.webp",
+    "link": "",
+    "description": "Mentimun Pasar Rakyat is a marketplace created with installments as the main feature. Supported by FIF Group, Mentimun targets people in rural areas as their market.",
+    "technologies": ["Vue.js", "HTML 5", "CSS 3", "Javascript"]
   }
 ]
