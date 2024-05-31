@@ -1,5 +1,26 @@
 [
   {
+    "title": "PT SBI",
+    "image": "image/sbi.webp",
+    "link": "",
+    "description": "Created Node.js app to accept serial data from microcontroller and display truck drivers accessing the barrier gate via RFID card tap.",
+    "technologies": ["Node.js", "HTML 5", "CSS 3", "Javascript", "MySQL"]
+  },
+  {
+    "title": "Forsumen File Server",
+    "image": "image/forsumen.webp",
+    "link": "",
+    "description": "Setup File Sharing Server with Ubuntu Server 22.04 LTS using Samba",
+    "technologies": ["Ubuntu Server 22.04.LTS", "Samba"]
+  },
+  {
+    "title": "Konsultan Solar",
+    "image": "image/konsol.webp",
+    "link": "",
+    "description": "Konsultan Solar is a landing page for a consultation service on solar panel installation.",
+    "technologies": ["Wordpress", "Elementor"]
+  },
+  {
     "title": "SIPERAB",
     "image": "image/siperab.webp",
     "link": "",
