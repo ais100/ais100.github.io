@@ -1,5 +1,12 @@
 [
   {
+    "title": "Franchise One",
+    "image": "image/franchiseone.png",
+    "link": "https://franchise.one",
+    "description": "Created Franchise Management System app using Angular 17 for frontend and Node.js for backend.",
+    "technologies": ["Angular 17", "Node.js", "HTML 5", "CSS 3", "Typescript", "MySQL", "Docker", "Git", "Figma"]
+  },
+  {
     "title": "PT SBI",
     "image": "image/sbi.webp",
     "link": "",
@@ -12,13 +19,6 @@
     "link": "",
     "description": "Setup File Sharing Server with Ubuntu Server 22.04 LTS using Samba",
     "technologies": ["Ubuntu Server 22.04.LTS", "Samba"]
-  },
-  {
-    "title": "Konsultan Solar",
-    "image": "image/konsol.webp",
-    "link": "",
-    "description": "Konsultan Solar is a landing page for a consultation service on solar panel installation.",
-    "technologies": ["Wordpress", "Elementor"]
   },
   {
     "title": "SIPERAB",
@@ -40,13 +40,6 @@
     "link": "https://www.ummahmaternal.com",
     "description": "Ummah Maternal is a community created for doulas and healthcare practitioners targeting their services for pregnant women and mothers in Canada.",
     "technologies": ["Wordpress", "Elementor", "Stripe Payment", "Javascript, jQuery"]
-  },
-  {
-    "title": "Mirium Digital",
-    "image": "image/mirium.webp",
-    "link": "https://www.miriumdigital.com",
-    "description": "Mirium Digital provides solutions to various fields of business. Their service includes software and web development, consultation, and cloud services.",
-    "technologies": ["Wordpress", "Elementor", "HTML 5, CSS 3", "Javascript, jQuery"]
   },
   {
     "title": "Auto Coin Trade",
@@ -103,5 +96,12 @@
     "link": "",
     "description": "Mentimun Pasar Rakyat is a marketplace created with installments as the main feature. Supported by FIF Group, Mentimun targets people in rural areas as their market.",
     "technologies": ["Vue.js", "HTML 5", "CSS 3", "Javascript"]
+  },
+  {
+    "title": "JTravl",
+    "image": "image/jtravl.webp",
+    "link": "",
+    "description": "JTravl is a corporate travel management system. Supported by Panorama, JTravl is used by companies to manage their travel arrangements.",
+    "technologies": ["Angular 2", "HTML 5", "CSS 3", "Javascript"]
   }
 ]

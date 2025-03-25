@@ -1,10 +1,31 @@
 [
   {
-    "title": "AIMI ASI",
-    "image": "image/aimiasi.webp",
-    "link": "https://www.aimi-asi.org",
-    "description": "AIMI ASI (Asosiasi Ibu Menyusui Indonesia) is an non-profit organization created to promote and support breastfeeding mothers in Indonesia",
-    "technologies": ["Wordpress", "HTML 5", "CSS 3", "Javascript, jQuery"]
+    "title": "Franchise One",
+    "image": "image/franchiseone.png",
+    "link": "https://franchise.one",
+    "description": "Created Franchise Management System app using Angular 17 for frontend and Node.js for backend.",
+    "technologies": ["Angular 17", "Node.js", "HTML 5", "CSS 3", "Typescript", "MySQL", "Docker", "Git", "Figma"]
+  },
+  {
+    "title": "PT SBI",
+    "image": "image/sbi.webp",
+    "link": "",
+    "description": "Created Node.js app to accept serial data from microcontroller and display truck drivers accessing the barrier gate via RFID card tap.",
+    "technologies": ["Node.js", "HTML 5", "CSS 3", "Javascript", "MySQL"]
+  },
+  {
+    "title": "Forsumen File Server",
+    "image": "image/forsumen.webp",
+    "link": "",
+    "description": "Setup File Sharing Server with Ubuntu Server 22.04 LTS using Samba",
+    "technologies": ["Ubuntu Server 22.04.LTS", "Samba"]
+  },
+  {
+    "title": "Konsultan Solar",
+    "image": "image/konsol.webp",
+    "link": "",
+    "description": "Konsultan Solar is a landing page for a consultation service on solar panel installation.",
+    "technologies": ["Wordpress", "Elementor"]
   },
   {
     "title": "SIPERAB",
@@ -35,6 +56,13 @@
     "technologies": ["Wordpress", "Elementor", "HTML 5, CSS 3", "Javascript, jQuery"]
   },
   {
+    "title": "Auto Coin Trade",
+    "image": "image/autocointrade.webp",
+    "link": "",
+    "description": "Auto Coin Trade provides the service of automatic transactions of Futures cryptocurrency. Real time transactions are done by reading price updates using websocket.",
+    "technologies": ["Node.js", "Websocket", "Angular 15", "HTML 5, CSS 3"]
+  },
+  {
     "title": "AturToko.id",
     "image": "image/aturtoko.webp",
     "link": "https://www.aturtoko.id",
@@ -54,5 +82,40 @@
     "link": "https://store.aturtoko.id",
     "description": "OmniPos is an omnichannel system created for AturToko as the core system used to connect marketplaces into a single dashboard.",
     "technologies": ["Angular 12", "HTML 5", "CSS 3", "Typescript"]
+  },
+  {
+    "title": "AYO SRC",
+    "image": "image/ayosrc.webp",
+    "link": "",
+    "description": "AYO by SRC is a digital system connecting wholesale partners to SRC stores. Task Sequencing Management is a part of the system where the gamification of tasks live.",
+    "technologies": ["Angular 12", "HTML 5, CSS 3", "D3.js", "Typescript"]
+  },
+  {
+    "title": "Delikatessa",
+    "image": "image/delikatessa.webp",
+    "link": "",
+    "description": "Delikatessa is a meat processing factory which uses a WMS for their cold storage. Ensuring quick and easy access to specific items is mandatory in subzero environment.",
+    "technologies": ["Angular 4", "Ionic 3", "HTML 5, CSS 3", "Typescript"]
+  },
+  {
+    "title": "Pajak Mobile Pemprov DKI",
+    "image": "image/pajakmobile.webp",
+    "link": "",
+    "description": "Pajak Mobile is an app for tax payers to see any tax they are required to pay. From properties, vehicles, parking to restaurants and billboard displays.",
+    "technologies": ["Ionic 3", "Cordova", "Javascript", "Material Design"]
+  },
+  {
+    "title": "Mentimun",
+    "image": "image/mentimun.webp",
+    "link": "",
+    "description": "Mentimun Pasar Rakyat is a marketplace created with installments as the main feature. Supported by FIF Group, Mentimun targets people in rural areas as their market.",
+    "technologies": ["Vue.js", "HTML 5", "CSS 3", "Javascript"]
+  },
+  {
+    "title": "JTravl",
+    "image": "image/jtravl.webp",
+    "link": "",
+    "description": "JTravl is a corporate travel management system. Supported by Panorama, JTravl is used by companies to manage their travel arrangements.",
+    "technologies": ["Angular 2", "HTML 5", "CSS 3", "Javascript"]
   }
 ]

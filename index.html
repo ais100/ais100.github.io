@@ -21,7 +21,7 @@
     <div class="row my-5">
       <div class="col-12 text-center">
         <h1>Hi there!</h1>
-        <p>I'm Faris and I'm a system analyst and a web developer. You can contact me at <a
+        <p>I'm Faris, a system analyst and a web developer. I have a passion for creating efficient and scalable systems. You can contact me at <a
             href="mailto:faris.amin@gmail.com" title="faris.amin@gmail.com">my email</a></p>
         <p><a href="https://www.linkedin.com/in/farisamin/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </p>
@@ -74,20 +74,22 @@
       card.className = "col";
 
       card.innerHTML = `
-      <div class="card bg-light shadow-lg h-100 border-secondary-subtle">
-        <img class="card-img-top" src="${project.image}" alt="${project.title}" />
-        <div class="card-body">
-          <h4 class="card-title">${project.link ? `<a href="${project.link}" class="text-secondary" target="_blank">${project.title}</a>` : project.title}</h4>
-          <p class="card-text">${project.description}</p>
-        </div>
-        <div class="card-footer">
-          <p class="card-text">Technologies Used:
-            <ul>
-              ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
-            </ul>
-          </p>
-        </div>
-      </div>
+  <div class="card bg-light shadow-lg h-100 border-secondary-subtle">
+    <div class="aspect-ratio-4-3">
+      <img class="card-img-top bg-secondary bg-gradient p-3" src="${project.image}" alt="${project.title}" />
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">${project.link ? `<a href="${project.link}" class="text-secondary" target="_blank">${project.title}</a>` : project.title}</h4>
+      <p class="card-text">${project.description}</p>
+    </div>
+    <div class="card-footer">
+      <p class="card-text">Tech Stack:
+        <ul class="list-unstyled">
+          ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
+        </ul>
+      </p>
+    </div>
+  </div>
       `;
       return card;
     }
