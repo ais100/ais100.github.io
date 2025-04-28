@@ -56,13 +56,6 @@
     "technologies": ["Wordpress", "HTML 5, CSS 3", "Midtrans Payment", "Javascript, jQuery"]
   },
   {
-    "title": "eMAHA",
-    "image": "image/emaha.webp",
-    "link": "https://www.emaha.com",
-    "description": "eMAHA is a marketplace created for Mardicorp from Malaysia. It focuses on products and services provided by Malaysia's SMEs.",
-    "technologies": ["Wordpress &amp; Woocommerce", "HTML 5, CSS 3", "Senangpay Payment", "Javascript, jQuery"]
-  },
-  {
     "title": "OmniPos",
     "image": "image/omnipos.webp",
     "link": "https://store.aturtoko.id",
