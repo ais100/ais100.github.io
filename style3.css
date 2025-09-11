@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600&display=swap');
+
+/* Color Variables */
+:root {
+    /* Light Theme */
+    --bg-color: #f8f8f8; /* Broken White */
+    --text-color: #1a2a4a; /* Dark Blue */
+    --header-bg: #1a2a4a; /* Dark Blue */
+    --header-text: #f8f8f8; /* Broken White */
+    --accent-color: #4a90e2;
+    --card-bg: #ffffff;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --tech-bg: #e9e9e9;
+    --tech-text: #1a2a4a;
+    --footer-bg: var(--header-bg);
+    --footer-text: var(--header-text);
+}
+
+.dark-theme {
+    /* Dark Theme */
+    --bg-color: #1a1a1a; /* Dark Grey (close to black) */
+    --text-color: #ffcc00; /* Golden */
+    --header-bg: #1a1a1a;
+    --header-text: #ffcc00;
+    --accent-color: #ffcc00;
+    --card-bg: #2a2a2a;
+    --card-shadow: rgba(255, 255, 255, 0.1);
+    --tech-bg: #3a3a3a;
+    --tech-text: #ffcc00;
+    --footer-bg: #1a1a1a;
+    --footer-text: #ffcc00;
+}
+
+/* Basic Reset & Body Styles */
+body {
+    margin: 0;
+    font-family: 'Oxanium', sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    padding: 0.5rem 20px; /* Apply padding directly to header */
+    border-bottom: 3px solid var(--accent-color);
+    display: flex;
+    justify-content: center; /* Center the inner content */
+    align-items: center;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure inner content spans full width of header */
+    max-width: 1200px; /* To keep content centered and within limits */
+}
+
+.contact-info-header a {
+    color: var(--header-text);
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 0.9em;
+}
+
+.contact-info-header a:hover {
+    color: var(--accent-color);
+}
+
+.contact-info-header i {
+    margin-right: 5px;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--header-text);
+    font-size: 1.5em;
+    cursor: pointer;
+    padding-right: 0; /* No extra padding here, handled by container */
+    transition: color 0.3s;
+}
+
+.theme-toggle:hover {
+    color: var(--accent-color);
+}
+
+/* Hero Section */
+#hero {
+    background: var(--bg-color) url('https://via.placeholder.com/1500x500?text=Portfolio+Background') no-repeat center center/cover;
+    color: var(--text-color);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* About and Contact Sections */
+#contact {
+    padding: 40px 0;
+    text-align: center;
+    background-color: var(--bg-color); /* Changed to --bg-color */
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+#contact p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 15px auto;
+}
+
+#contact a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+.contact-form-container {
+    margin-top: 15px; /* Reduced margin-top */
+    padding-top: 20px;
+    /* border-top: 1px solid var(--card-shadow); Removed */
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; /* Align form elements to the left within its container */
+}
+
+.contact-form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group textarea { /* Added textarea */
+    width: calc(100% - 20px); /* Account for padding */
+    padding: 10px;
+    border: 1px solid var(--card-shadow);
+    border-radius: 5px;
+    background-color: var(--bg-color); /* Match theme background */
+    color: var(--text-color); /* Match theme text color */
+    font-size: 1em;
+    font-family: inherit; /* Ensure font is inherited from body */
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group textarea:focus { /* Added textarea:focus */
+    border-color: var(--accent-color);
+    outline: none;
+}
+
+.contact-form-container button.button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 40px; /* Space between columns */
+    align-items: start; /* Align items to the start of their grid area */
+}
+
+.contact-info-column,
+.contact-form-column {
+    padding: 20px; /* Add some padding to the columns */
+    background-color: var(--card-bg); /* Match card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+}
+
+/* Adjust existing contact styles to fit the new layout */
+#contact h2 {
+    text-align: left; /* Align heading to left in its column */
+    margin-bottom: 20px;
+}
+
+#contact p {
+    text-align: left; /* Align paragraphs to left in its column */
+    max-width: none; /* Remove max-width constraint */
+    margin: 0 0 15px 0; /* Adjust margins */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+        gap: 20px;
+    }
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: var(--text-color);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.more-projects-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+
+.project-card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s, box-shadow 0.3s;
+    position: relative; /* Added for absolute positioning of children */
+    display: flex; /* Added for flex layout */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: calc(100% - 20px); /* Reduce width for padding */
+    height: calc(200px - 20px); /* Reduce height for padding */
+    padding: 10px; /* Add padding around the image */
+    object-fit: contain;
+    display: block;
+}
+
+.project-content {
+    padding: 20px 20px 120px; /* Increased padding-bottom to prevent button overlap */
+    flex-grow: 1; /* Allow content to grow and fill available space */
+}
+
+.project-content h3 {
+    margin-top: 0;
+    color: var(--text-color);
+}
+
+.project-content p {
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+.project-content .technologies-list {
+    list-style: none;
+    padding: 15px 20px 0; /* Add padding to the top, right/left, and bottom */
+    margin-top: 0; /* Remove margin-top as absolute positioning handles placement */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.85em;
+    color: var(--tech-text);
+    background-color: var(--card-bg); /* Ensure background covers the area */
+}
+
+.project-content .technologies-list li i {
+    margin-right: 5px;
+    display: inline-block;
+    background-color: var(--tech-bg);
+    padding: 5px 10px;
+    margin: 0 5px 5px 0;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.technologies-list li {
+    display: inline-block;
+    background-color: var(--accent-color); /* Using accent color for badges */
+    color: var(--header-text); /* Using header text color for contrast */
+    padding: 5px 10px;
+    margin: 0 5px 5px 0; /* Top, Right, Bottom, Left */
+    border-radius: 5px;
+    font-size: 0.9em;
+    white-space: nowrap; /* Prevent text from wrapping inside the badge */
+}
+
+.dark-theme .technologies-list li {
+    background-color: var(--tech-bg); /* Dark background for badges in dark mode */
+    color: var(--text-color); /* Golden text for badges in dark mode */
+}
+
+.project-content a.button,
+.contact-form-container button.button { /* Added button.button for submit button */
+    display: inline-block;
+    background-color: var(--header-bg); /* Dark blue from header */
+    color: var(--header-text); /* Text color for the button (broken white) */
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+}
+
+.project-content a.button:hover,
+.contact-form-container button.button:hover { /* Added button.button:hover */
+    background-color: var(--accent-color); /* Accent color on hover */
+    color: var(--header-text); /* Keep text color consistent or adjust for contrast */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.dark-theme .project-content a.button:hover,
+.dark-theme .contact-form-container button.button:hover { /* Added submit button */
+    color: var(--header-bg); /* Dark text color for contrast on golden background */
+}
+
+.project-content a.button:active,
+.contact-form-container button.button:active { /* Added button.button:active */
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background: var(--footer-bg);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 10px 0; /* Further reduced padding */
+    margin-top: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row; /* Changed to row */
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links {
+    margin-right: 10px; /* Space between links and text when in a row */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.social-links a {
+    color: var(--footer-text); /* Use footer text color */
+    font-size: 1.5em; /* Adjust icon size */
+    margin: 0 10px; /* Space between icons */
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--accent-color); /* Accent color on hover */
+}
+
+.footer-text {
+    font-size: 0.9em;
+    margin: 0; /* Remove default paragraph margin */
+}
+
+/* Clearfix for floats */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Tech Stack Section */
+#tech-stack {
+    padding: 40px 0;
+    text-align: center;
+    background-color: var(--card-bg);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+#tech-stack h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+/* Glide.js Customizations */
+.glide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px; /* Adjust as needed */
+}
+
+.tech-icon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: var(--tech-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100px; /* Fixed width for consistency */
+    height: 100px; /* Fixed height for consistency */
+    transition: transform 0.2s ease-in-out, background-color 0.3s, box-shadow 0.3s;
+    color: var(--tech-text);
+}
+
+.tech-icon-card i {
+    font-size: 3em; /* Adjust icon size */
+    margin-bottom: 10px;
+    color: var(--accent-color); /* Use accent color for icons */
+}
+
+.tech-icon-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Glide.js Arrows */
+.glide__arrow {
+    position: absolute;
+    display: block;
+    top: 50%;
+    z-index: 2;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    padding: 9px 12px;
+    background-color: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 4px;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    transform: translateY(-50%);
+}
+
+.glide__arrow:focus {
+    outline: none;
+}
+
+.glide__arrow:hover {
+    background-color: var(--accent-color);
+    color: var(--header-text);
+}
+
+.glide__arrow--left {
+    left: 1em;
+}
+
+.glide__arrow--right {
+    right: 1em;
+}
+
+/* Glide.js Bullets */
+.glide__bullets {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
+}
+
+.glide__bullet {
+    background-color: var(--accent-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--accent-color);
+    display: inline-block;
+    margin: 0 0.25em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.glide__bullet--active {
+    background-color: transparent;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 0.5rem 10px; /* Adjust padding for smaller screens */
+    }
+
+    .header-inner {
+        flex-direction: column;
+    }
+
+    .contact-info-header {
+        margin-bottom: 10px;
+    }
+
+    .theme-toggle {
+        padding: 10px 0;
+    }
+
+    #hero h2 {
+        font-size: 2em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-icon-card {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .tech-icon-card i {
+        font-size: 2.5em;
+    }
+
+    .tech-icon-card span {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-icon-card {
+        width: 70px;
+        height: 70px;
+        padding: 8px;
+    }
+
+    .tech-icon-card i {
+        font-size: 2em;
+    }
+
+    .tech-icon-card span {
+        font-size: 0.7em;
+    }
+}

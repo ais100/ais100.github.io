@@ -1,100 +1,137 @@
 [
   {
+    "title": "CISV Indonesia",
+    "image": "image/cisv.webp",
+    "link": "",
+    "description": "A membership and event management system for national and international student programs.",
+    "technologies": ["Angular 19", "Node.js", "Bootstrap 5"],
+    "challenges": "Operating as a sole full-stack developer under tight deadlines and budget constraints, while navigating negative stakeholder sentiment stemming from a previous vendor's abrupt departure.",
+    "lessons_learned": "The project underscored the efficiency of full-stack development with a unified technology stack, particularly within the JavaScript ecosystem (Angular and Node.js), by significantly reducing context switching between frontend and backend development."
+  },
+  {
     "title": "Franchise One",
     "image": "image/franchiseone.png",
     "link": "https://franchise.one",
     "description": "Created Franchise Management System app using Angular 17 for frontend and Node.js for backend.",
-    "technologies": ["Angular 17", "Node.js", "HTML 5", "CSS 3", "Typescript", "MySQL", "Docker", "Git", "Figma"]
+    "technologies": ["Angular 17", "Node.js", "HTML 5", "CSS 3", "TypeScript", "MySQL", "Docker", "Git", "Figma"],
+    "challenges": "Navigating rapid development cycles and frequently evolving requirements inherent to a nascent startup environment.",
+    "lessons_learned": "Effective communication proved crucial for project success, fostering shared understanding among developers and stakeholders despite limited resources."
   },
   {
     "title": "PT SBI",
     "image": "image/sbi.webp",
     "link": "",
     "description": "Created Node.js app to accept serial data from microcontroller and display truck drivers accessing the barrier gate via RFID card tap.",
-    "technologies": ["Node.js", "HTML 5", "CSS 3", "Javascript", "MySQL"]
+    "technologies": ["Node.js", "HTML 5", "CSS 3", "JavaScript", "MySQL"],
+    "challenges": "Overcoming logistical challenges due to the remote project location in Cilacap, coupled with the demanding on-site work environment requiring strict adherence to safety protocols and gear.",
+    "lessons_learned": "The project underscored the critical importance of stringent safety regulations and protocols in field operations, highlighting their role in mitigating unforeseen risks and ensuring personnel well-being."
   },
   {
     "title": "Forsumen File Server",
     "image": "image/forsumen.webp",
     "link": "",
     "description": "Setup File Sharing Server with Ubuntu Server 22.04 LTS using Samba",
-    "technologies": ["Ubuntu Server 22.04.LTS", "Samba"]
+    "technologies": ["Ubuntu Server 22.04.LTS", "Samba"],
+    "challenges": "Bridging the knowledge gap and managing user expectations when transitioning a Windows-centric client base to a Linux-based file server environment.",
+    "lessons_learned": "The project highlighted the necessity of adopting a creative and flexible problem-solving approach to meet diverse client requirements."
   },
   {
     "title": "SIPERAB",
     "image": "image/siperab.webp",
     "link": "",
     "description": "SIPERAB (Sistem Informasi Penyusunan RAB) is a system made for the Office of Highways of Tangerang Regency in the Banten Province of Indonesia.",
-    "technologies": ["Laravel", "HTML 5", "CSS 3", "Javascript, jQuery"]
+    "technologies": ["Laravel", "HTML 5", "CSS 3", "JavaScript", "jQuery"],
+    "challenges": "Navigating the unique complexities and bureaucratic nuances inherent in collaborating with government officials.",
+    "lessons_learned": "The project reinforced the value of adaptability and flexibility when working within structured environments, emphasizing the importance of 'going with the flow' to achieve project objectives."
   },
   {
-    "title": "Darlinshop SG",
+    "title": "Darlin Shop of Singapore",
     "image": "image/darlinshop.webp",
     "link": "https://darlinshop.sg",
     "description": "Darlinshop.sg is an ecommerce website created for a client selling imported goods from around the world in Singapore.",
-    "technologies": ["Wordpress", "Woocommerce", "Elementor", "Javascript, jQuery"]
+    "technologies": ["WordPress", "WooCommerce", "Elementor", "JavaScript", "jQuery"],
+    "challenges": "Managing feature creep and plugin proliferation within a WordPress environment, compounded by the continuous demands of WordPress and plugin updates.",
+    "lessons_learned": "Prioritizing core functionalities and judiciously managing feature requests to optimize performance and maintain a streamlined user experience, even when faced with extensive client demands."
   },
   {
     "title": "Ummah Maternal",
     "image": "image/ummahmaternal.webp",
     "link": "https://www.ummahmaternal.com",
     "description": "Ummah Maternal is a community created for doulas and healthcare practitioners targeting their services for pregnant women and mothers in Canada.",
-    "technologies": ["Wordpress", "Elementor", "Stripe Payment", "Javascript, jQuery"]
+    "technologies": ["WordPress", "Elementor", "Stripe Payment", "JavaScript", "jQuery"],
+    "challenges": "Managing client expectations and communication across significant international time zone differences, coupled with the challenge of balancing project scope against a limited budget and increasingly demanding requests.",
+    "lessons_learned": "Recognizing the importance of setting clear boundaries and understanding when to disengage from client relationships that are no longer mutually beneficial or sustainable."
   },
   {
     "title": "Auto Coin Trade",
     "image": "image/autocointrade.webp",
     "link": "",
     "description": "Auto Coin Trade provides the service of automatic transactions of Futures cryptocurrency. Real time transactions are done by reading price updates using websocket.",
-    "technologies": ["Node.js", "Websocket", "Angular 15", "HTML 5, CSS 3"]
+    "technologies": ["Node.js", "WebSocket", "Angular 15", "HTML 5", "CSS 3"],
+    "challenges": "Rapidly acquiring a comprehensive understanding of cryptocurrency trading intricacies, including market analysis, technical indicators like candlestick patterns, and strategic decision-making for optimal buy/sell and long/short positions.",
+    "lessons_learned": "The project underscored the inherent volatility and unpredictability of financial markets, reinforcing that even sophisticated trading algorithms cannot guarantee consistent success against market forces."
   },
   {
     "title": "AturToko.id",
     "image": "image/aturtoko.webp",
     "link": "https://www.aturtoko.id",
     "description": "AturToko is a website for a startup providing omnichannel services to marketplace sellers. Their products include OmniPos, BuatToko, and AturToko +.",
-    "technologies": ["Wordpress", "HTML 5, CSS 3", "Midtrans Payment", "Javascript, jQuery"]
+    "technologies": ["WordPress", "HTML 5", "CSS 3", "Midtrans Payment", "JavaScript", "jQuery"],
+    "challenges": "Collaborating with designers lacking web-specific design knowledge, which presented significant challenges in translating their concepts into SEO-friendly and functionally optimized web designs.",
+    "lessons_learned": "The project necessitated improvisation and creative problem-solving, ultimately enhancing my proficiency in SEO management through direct collaboration with a dedicated SEO specialist."
   },
   {
     "title": "OmniPos",
     "image": "image/omnipos.webp",
     "link": "https://store.aturtoko.id",
     "description": "OmniPos is an omnichannel system created for AturToko as the core system used to connect marketplaces into a single dashboard.",
-    "technologies": ["Angular 12", "HTML 5", "CSS 3", "Typescript"]
+    "technologies": ["Angular 12", "HTML 5", "CSS 3", "TypeScript"],
+    "challenges": "Managing the complexities of integrating with diverse e-commerce marketplaces, each possessing unique product and order data structures, API rules, and frequently updated endpoints.",
+    "lessons_learned": "Identifying underlying patterns and commonalities across disparate systems is crucial for developing robust features. This project reinforced that challenges often foster creativity and lead to innovative, 'out-of-the-box' solutions."
   },
   {
     "title": "AYO SRC",
     "image": "image/ayosrc.webp",
     "link": "",
     "description": "AYO by SRC is a digital system connecting wholesale partners to SRC stores. Task Sequencing Management is a part of the system where the gamification of tasks live.",
-    "technologies": ["Angular 12", "HTML 5, CSS 3", "D3.js", "Typescript"]
+    "technologies": ["Angular 12", "HTML 5", "CSS 3", "D3.js", "TypeScript"],
+    "challenges": "Navigating a project with an ill-defined scope and limited initial information, compounded by the steep learning curve of integrating D3.js, all within the context of a newly formed team and a highly professional environment.",
+    "lessons_learned": "The project underscored the importance of focused problem-solving and logical deduction, demonstrating that persistent application of analytical skills can overcome significant technical and informational hurdles."
   },
   {
     "title": "Delikatessa",
     "image": "image/delikatessa.webp",
     "link": "",
     "description": "Delikatessa is a meat processing factory which uses a WMS for their cold storage. Ensuring quick and easy access to specific items is mandatory in subzero environment.",
-    "technologies": ["Angular 4", "Ionic 3", "HTML 5, CSS 3", "Typescript"]
+    "technologies": ["Angular 4", "Ionic 3", "HTML 5", "CSS 3", "TypeScript"],
+    "challenges": "Addressing highly specific and non-standard customer requirements for a Warehouse Management System, compounded by collaboration challenges with a backend development teammate regarding differing approaches or methodologies.",
+    "lessons_learned": "The project highlighted the importance of recognizing when client demands exceed reasonable scope or become unsustainable, reinforcing the necessity of establishing clear project boundaries and, if needed, professionally disengaging from the engagement."
   },
   {
     "title": "Pajak Mobile Pemprov DKI",
     "image": "image/pajakmobile.webp",
     "link": "",
     "description": "Pajak Mobile is an app for tax payers to see any tax they are required to pay. From properties, vehicles, parking to restaurants and billboard displays.",
-    "technologies": ["Ionic 3", "Cordova", "Javascript", "Material Design"]
+    "technologies": ["Ionic 3", "Cordova", "JavaScript", "Material Design"],
+    "challenges": "Assuming responsibility for a project mid-development, navigating complex administrative and financial processes, and managing stakeholder expectations regarding project progress and documentation within a public sector environment.",
+    "lessons_learned": "The project emphasized the importance of strict adherence to defined project scopes and deliverables when working with governmental entities, focusing on efficient completion to ensure timely project closure and compensation."
   },
   {
     "title": "Mentimun",
     "image": "image/mentimun.webp",
     "link": "",
     "description": "Mentimun Pasar Rakyat is a marketplace created with installments as the main feature. Supported by FIF Group, Mentimun targets people in rural areas as their market.",
-    "technologies": ["Vue.js", "HTML 5", "CSS 3", "Javascript"]
+    "technologies": ["Vue.js", "HTML 5", "CSS 3", "JavaScript"],
+    "challenges": "Navigating the steep learning curve of Vue.js as a nascent framework, especially after recently acquiring proficiency in Angular 2, while simultaneously undertaking the development of my first marketplace platform.",
+    "lessons_learned": "The project highlighted the benefits of minimizing context switching between different JavaScript frameworks, demonstrating that proficiency gained in one framework can significantly ease the transition to another within the same ecosystem."
   },
   {
     "title": "JTravl",
     "image": "image/jtravl.webp",
     "link": "",
     "description": "JTravl is a corporate travel management system. Supported by Panorama, JTravl is used by companies to manage their travel arrangements.",
-    "technologies": ["Angular 2", "HTML 5", "CSS 3", "Javascript"]
+    "technologies": ["Angular 2", "HTML 5", "CSS 3", "JavaScript"],
+    "challenges": "Navigating the complexities of adopting a nascent framework like Angular during its early release, collaborating with an inexperienced backend team utilizing Spring Boot, and managing project demands that led to extensive overtime without commensurate compensation.",
+    "lessons_learned": "The project underscored the value of patience and perseverance in challenging development environments, ultimately leading to significant personal growth and the establishment of valuable professional connections."
   }
 ]
