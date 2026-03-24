@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio — Faris</title>
+  <title>Portfolio — FARIS</title>
 
   <!-- Google Fonts -->
   <link
@@ -735,6 +735,13 @@
     }
 
     /* ── Responsive ── */
+
+    @media (max-width: 700px) {
+      .about-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+
     @media (max-width: 600px) {
       nav {
         padding: 1rem 1.2rem;
@@ -766,6 +773,7 @@
     <div class="nav-links">
       <a href="#hero">Home</a>
       <a href="#skills">Skills</a>
+      <a href="#about">About</a>
       <a href="#projects">Projects</a>
     </div>
   </nav>
@@ -773,7 +781,7 @@
   <!-- Hero -->
   <section id="hero">
     <p class="hero-eyebrow">⬡ Full-Stack Developer · Jakarta, Indonesia</p>
-    <h1 class="hero-name">Faris</h1>
+    <h1 class="hero-name">FARIS</h1>
     <p class="hero-title"><span>Building</span> digital systems · <span>Angular</span> · Node.js · <span>IoT</span></p>
     <div class="hero-divider"></div>
     <p class="hero-desc">
@@ -793,7 +801,7 @@
         <div class="stat-label">Projects</div>
       </div>
       <div class="stat">
-        <div class="stat-number" id="count-years">20+</div>
+        <div class="stat-number" id="count-years">8+</div>
         <div class="stat-label">Years Exp.</div>
       </div>
       <div class="stat">
@@ -802,6 +810,115 @@
       </div>
     </div>
     <div class="scroll-hint"><i class="fas fa-chevron-down"></i> Scroll</div>
+  </section>
+
+  <!-- Skills -->
+
+  <!-- About -->
+  <section id="about" style="background: rgba(10,15,40,0.4);">
+    <div style="max-width:1000px;margin:0 auto;">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">// about me</p>
+        <h2 class="section-title">Who <span>I Am</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;"
+        data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Left: Bio -->
+        <div>
+          <p style="font-size:1.05rem;color:var(--muted);line-height:1.85;margin-bottom:1.2rem;">
+            I'm a <span style="color:var(--text);font-weight:600;">full-stack developer</span> based in Jakarta,
+            Indonesia,
+            with over 8 years of experience building web applications and digital systems across
+            startups, government agencies, and enterprise clients.
+          </p>
+          <p style="font-size:1.05rem;color:var(--muted);line-height:1.85;margin-bottom:1.2rem;">
+            My work spans frontend-heavy applications in <span
+              style="color:var(--accent);font-weight:600;">Angular</span>,
+            backend services with <span style="color:var(--accent);font-weight:600;">Node.js</span>,
+            and hands-on IoT integrations — from RFID gate systems to real-time WebSocket data pipelines.
+            I care about clean architecture, minimal context-switching, and shipping things that actually work.
+          </p>
+          <p style="font-size:1.05rem;color:var(--muted);line-height:1.85;">
+            Currently expanding into backend depth, Go, and geospatial technologies while staying rooted in the
+            JavaScript ecosystem.
+          </p>
+
+          <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="https://github.com/ais100" target="_blank" class="btn-primary" style="font-size:0.78rem;">
+              <i class="fab fa-github"></i>&nbsp; GitHub
+            </a>
+            <a href="mailto:" class="btn-primary"
+              style="border-color:var(--accent2);color:var(--accent2);font-size:0.78rem;">
+              <i class="fas fa-envelope"></i>&nbsp; Contact Me
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Details -->
+        <div style="display:flex;flex-direction:column;gap:1.2rem;">
+
+          <!-- Education -->
+          <div
+            style="border:1px solid var(--border);padding:1.2rem 1.4rem;background:var(--card-bg);position:relative;overflow:hidden;">
+            <div
+              style="position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--accent),var(--accent2));">
+            </div>
+            <p
+              style="font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);margin-bottom:0.5rem;">
+              <i class="fas fa-graduation-cap" style="margin-right:0.4rem;"></i>Education
+            </p>
+            <p style="font-size:1rem;font-weight:700;color:var(--text);font-family:'Orbitron',monospace;">Bachelor of
+              Computer Science</p>
+            <p style="font-size:0.9rem;color:var(--muted);margin-top:0.2rem;">University of Indonesia</p>
+          </div>
+
+          <!-- Location -->
+          <div
+            style="border:1px solid var(--border);padding:1.2rem 1.4rem;background:var(--card-bg);position:relative;overflow:hidden;">
+            <div
+              style="position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--accent2),var(--accent3));">
+            </div>
+            <p
+              style="font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);margin-bottom:0.5rem;">
+              <i class="fas fa-map-marker-alt" style="margin-right:0.4rem;"></i>Location
+            </p>
+            <p style="font-size:1rem;font-weight:700;color:var(--text);">Jakarta, Indonesia</p>
+            <p style="font-size:0.9rem;color:var(--muted);margin-top:0.2rem;">Open to remote collaboration</p>
+          </div>
+
+          <!-- Specialization -->
+          <div
+            style="border:1px solid var(--border);padding:1.2rem 1.4rem;background:var(--card-bg);position:relative;overflow:hidden;">
+            <div
+              style="position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--accent3),var(--accent));">
+            </div>
+            <p
+              style="font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);margin-bottom:0.5rem;">
+              <i class="fas fa-code" style="margin-right:0.4rem;"></i>Specialization
+            </p>
+            <p style="font-size:1rem;font-weight:700;color:var(--text);">Full-Stack Web Development</p>
+            <p style="font-size:0.9rem;color:var(--muted);margin-top:0.2rem;">Angular · Node.js · IoT Systems</p>
+          </div>
+
+          <!-- Experience -->
+          <div
+            style="border:1px solid var(--border);padding:1.2rem 1.4rem;background:var(--card-bg);position:relative;overflow:hidden;">
+            <div
+              style="position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,var(--accent),var(--accent3));">
+            </div>
+            <p
+              style="font-size:0.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);margin-bottom:0.5rem;">
+              <i class="fas fa-briefcase" style="margin-right:0.4rem;"></i>Experience
+            </p>
+            <p style="font-size:1rem;font-weight:700;color:var(--text);">8+ Years</p>
+            <p style="font-size:0.9rem;color:var(--muted);margin-top:0.2rem;">Startups · Enterprise · Government</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Skills -->
